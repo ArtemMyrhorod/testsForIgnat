@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ArtemMyrhorod/testsForIgnat/static/css/main.805c244d.css",
+    "main.js": "/ArtemMyrhorod/testsForIgnat/static/js/main.21a4d455.js",
+    "static/js/787.66cb4309.chunk.js": "/ArtemMyrhorod/testsForIgnat/static/js/787.66cb4309.chunk.js",
+    "static/media/avatar.png": "/ArtemMyrhorod/testsForIgnat/static/media/avatar.d947cb9d0d13765666b6.png",
+    "index.html": "/ArtemMyrhorod/testsForIgnat/index.html",
+    "main.805c244d.css.map": "/ArtemMyrhorod/testsForIgnat/static/css/main.805c244d.css.map",
+    "main.21a4d455.js.map": "/ArtemMyrhorod/testsForIgnat/static/js/main.21a4d455.js.map",
+    "787.66cb4309.chunk.js.map": "/ArtemMyrhorod/testsForIgnat/static/js/787.66cb4309.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.805c244d.css",
+    "static/js/main.21a4d455.js"
+  ]
+}
