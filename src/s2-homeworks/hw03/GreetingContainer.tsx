@@ -35,7 +35,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
   const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
     const trimmedName = e.currentTarget.value.trim()
     if (trimmedName) {
-      setName(trimmedName)
+       setName(trimmedName)
       setError(' ')
     } else {
       setName(' ')
