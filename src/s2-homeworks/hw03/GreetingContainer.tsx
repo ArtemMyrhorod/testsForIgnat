@@ -29,14 +29,14 @@ export const pureOnEnter = (e: KeyboardEvent<HTMLInputElement>, addUser: () => v
 }
 
 const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUserCallback,}) => {
-  const [name, setName] = useState<string>('')
-  const [error, setError] = useState<string>('')
+  const [name, setName] = useState<string>(' ')
+  const [error, setError] = useState<string>(' ')
 
   const setNameCallback = (e: ChangeEvent<HTMLInputElement>) => {
     const trimmedName = e.currentTarget.value.trim()
     if (trimmedName) {
       setName(trimmedName)
-      setError('')
+      setError(' ')
     } else {
       setName(' ')
       error && setError('Error. Type name!')
@@ -55,7 +55,7 @@ const GreetingContainer: React.FC<GreetingContainerPropsType> = ({users, addUser
   }
   const totalUsers = users.length
   // @ts-ignore
-  const lastUserName = users.length > 0 ? users[users.length - 1].name : '';
+  const lastUserName = users.length > 0 ? users[users.length - 1].name : ' ';
   return (
     <Greeting
       name={name}
