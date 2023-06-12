@@ -30,6 +30,7 @@ export const pureAddUserCallback = (name: string, setUsers: any, users: UsersTyp
         name: name
     }
     setUsers([...users, user])
+
 }
 
 const HW3 = () => {
